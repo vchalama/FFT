@@ -1,0 +1,2 @@
+ifort -c fftw3.f90
+ifort FFT_YZ.f90 -L/work2/vchalama/NEW_SIMULATIONS_VOLUME_FORCING/TEST_SIMULATION_FR_15_5D_SLOPE_LES/SPECTRA/fftw3_64/lib/ -lfftw3 
